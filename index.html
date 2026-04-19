@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score Keeper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Score Keeper</h1>
+  <div class="teams">
+    <section aria-labelledby="team-a-heading">
+      <h2 id="team-a-heading">Team A</h2>
+      <div class="score" id="team-a-score" aria-live="polite">0</div>
+      <div class="controls">
+        <button type="button" id="team-a-decrement" aria-label="Decrease Team A score">−1</button>
+        <button type="button" id="team-a-increment" aria-label="Increase Team A score">+1</button>
+      </div>
+    </section>
+    <section aria-labelledby="team-b-heading">
+      <h2 id="team-b-heading">Team B</h2>
+      <div class="score" id="team-b-score" aria-live="polite">0</div>
+      <div class="controls">
+        <button type="button" id="team-b-decrement" aria-label="Decrease Team B score">−1</button>
+        <button type="button" id="team-b-increment" aria-label="Increase Team B score">+1</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
